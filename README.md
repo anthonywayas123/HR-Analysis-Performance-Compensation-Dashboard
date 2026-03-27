@@ -13,6 +13,7 @@ After cleaning, i went ahead to write multiple Dax measures to answer each of th
 ### Dashborad Breakdown
 ####  Workforce Overview
 Provides a high-level snapshot of the entire workforce including headcount, gender distribution, and age demographics.
+
 Key Metrics:
 
 * Total Employees: 4,200
@@ -50,24 +51,28 @@ Key Insights:
 
 ####  Tools & Technologies
 |Tool | Usage |
-* Power BI Desktop = |Dashboard design| data modeling| DAX measures|
+* Power BI Desktop = |Dashboard design| data modeling|
 * Power Query = |Data transformation and cleaning|
 * DAX = |Custom measures | KPI calculations|
 #### Dax Measures Used
-(Attrition Rate)
+(Attrition Rate %)
+
 Attrition Rate % = 
 DIVIDE(
     COUNTROWS(FILTER(Employees, Employees[AttritionStatus] = "Left")),
     COUNTROWS(Employees)
 ) * 100
 
-(Retention Rate)
+(Retention Rate %)
+
 Retention Rate % = 100 - [Attrition Rate %]
 
 (Total Salary Disbursed)
+
 Total Salary Disbursed = SUM(Salary[Salary])
 
 (Average Salary)
+
 Avg Salary = AVERAGE(Salary[Salary]) 
 And quite a lot more Dax measures.
 
@@ -79,7 +84,7 @@ And quite a lot more Dax measures.
 
 #### How to Use
 * Click this link to download the File for this Analysis (Zipped) [Hr data Analysis Main.zip](https://github.com/user-attachments/files/26296683/Hr.data.Analysis.Main.zip)
- in Power BI Desktop
+and open in Power BI Desktop
 * Navigate between pages using the sidebar bookmark navigator
 * Use slicers and filters to explore specific segments
 
