@@ -2,8 +2,8 @@
 ### Project Overview
 This project is an end-to-end HR analytics solution built in Power BI, analyzing workforce composition, employee attrition, retention patterns, and compensation performance across an Australian company of 4,200 employees.
 The dashboard answers critical HR business questions that help leadership make data-driven decisions around talent retention, salary equity, and workforce planning.
-the dataset was presented in an excel format after which i proceeded to load the data into Power Query where i standardized and cleaned the rows and columns, i also assigned them to specific data formats so as to achieve the clear goals of this analysis, also handled some of the null values which were missing and Unprovided with the median, helper column,DataFix and 0 for some specific cases etc.
-After cleaning, i went ahead to write multiple Dax measures to answer each of the business Questions presented while bringing clarity to the problems, after that, i went ahead to visualize the findings and trend behaviour overtime which i uncovered while analyzing the data and also the key drivers to these problems.
+the dataset was presented in an excel format, which i proceeded to load into Power Query where i standardized and cleaned the rows and columns, i also assigned them to specific data formats to achieve the clear goals of the analysis, also handled some null values after studying and finding out from the organization the reason the were null, i then filled some of the null cells with the median, helper column, DataFix and 0 for some specific cases.
+After cleaning, i proceeded to write a few Dax measure codes in order to answer the business Questions while bringing clarity to the problems, after that, i moved to visualizing the findings and trend behaviours i discovered and as well the key drivers to these problems.
 ### Dashboard features 3 interconnected pages | Workforce Overview | Attrition & Retention | Performance and Compensation |
 
 <img width="951" height="532" alt="Screenshot 2026-03-26 164847" src="https://github.com/user-attachments/assets/df703962-058a-49c9-aeae-416de99a74d0" />
